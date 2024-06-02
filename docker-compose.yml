@@ -7,7 +7,7 @@ services:
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
-      PGDATA: /var/lib/postgresql/data
+      POSTGRES_DB: computer-shop
     ports:
       - "5432:5432"
     restart: unless-stopped
